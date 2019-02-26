@@ -11,7 +11,15 @@ import 'src/keyup_component.dart';
 @Component(
   selector: 'my-app',
   templateUrl: 'app_component.html',
-  directives: [LittleTourComponent, ClickMeComponent, ClickMe2Component],
+  directives: [
+    LittleTourComponent, 
+    ClickMeComponent, 
+    ClickMe2Component, 
+    LoopBackComponent,
+    KeyUp1Component,
+    KeyUp2Component,
+    KeyUp3Component,
+    KeyUp4Component],
 )
 class AppComponent {
   // Nothing here yet. All logic is in TodoListComponent.
