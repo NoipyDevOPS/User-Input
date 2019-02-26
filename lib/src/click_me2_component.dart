@@ -3,7 +3,7 @@ import 'package:angular/angular.dart';
 @Component(
   selector: 'click-me2',
   template: '''
-    <button (click)="onClickMe2(\$event)")>No...Click ME!</button>
+    <button (click)="onClickMe2(\$event)">No! .. Click me!</button>
     {{clickMessage}}
   ''',
 )

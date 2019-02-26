@@ -29,7 +29,7 @@ class KeyUp1Component{
 @Component(
   selector: 'key-up2',
   template: '''
-  <input #box (keyup)="onKey(box.value)"
+  <input #box (keyup)="onKey(box.value)">
   <p>{{values}}</p>
   ''',
 )
